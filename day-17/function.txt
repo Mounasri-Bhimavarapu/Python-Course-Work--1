@@ -1,0 +1,26 @@
+FUNCTION: It is a reusable block of code used for a specific task.
+
+ADVANTAGES:
+           1.MODULARITY: large programm is divided into small units to perform task easily.
+           2.Easy Debugging: errors can be resolved easily within a function.
+           3.Code reusability: function can be used without writing same code multiple times.
+           4.Acepts inputs: function accepts parameters and gives required output.
+           5.Saves time: once function is ceated it can be used multiple times.
+           6.Easy maintainance: changes in one module can be made with out disturbing entire program.
+           7.Easy readability: function helps us in understanding programm clearly.
+           8.
+TYPES OF FUNCTIONS:
+                  1.Built-in-functions
+                  2.User-Defined functions
+BUILT IN FUNCTIONS:
+                   input() bool( ) pop() type() max() min() format() ljust() rjust() startswith() endswith() strip() split() casefold() swapcase() zip() isalpha() isalnum() insert() remove() 
+                   count() issubset()  issuperset() union()    
+USER DEFIENED FUNCTIONS: Functions created by the users and used in programming .
+
+ARGUMENTS:
+             1.POSITIONAL: Parameters are maped based on the position
+             2.KEYWORD :Parameters are mapped based on keywords irespective of order
+             3.DEFAULT  : If user did not send a parameter replace it with none so that error is not shown 
+             4.VARIABLE LENGHT: Use (*)  gives TUPLE[args]
+                                    (**)  gives DICTIONARY [kwargs]                
+           
