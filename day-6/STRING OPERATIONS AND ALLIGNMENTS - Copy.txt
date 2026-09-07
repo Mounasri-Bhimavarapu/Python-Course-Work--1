@@ -1,0 +1,60 @@
+STRING
+
+  collection of characters enclosed in single or double quotes
+
+ 5 operations:
+
+1.CONCATINATION: Adding two strings
+2.REPETATION: Repeating string as many times wanted
+3.INDEXING: Accessing a particular character
+    
+     syntax: var[start:end+1:step]
+            by default step value is 1
+4.SLICING:Accessing group of values
+5.MEMBERSHIP: to check weather Present in data are not
+
+  
+
+a. len()
+b. max()
+c. min()
+d. ord()
+e. chr()
+
+CASE CONVERSION METHODS
+
+   1.Lowecase
+   2.Uppercase
+   3.Capitalize
+   4.Titile
+   5.Swapcase
+   6.Caseswap
+
+ALLIGNMENTS
+  
+ 1.Centre:variable.centre()
+ 2.left:variale.ljust()
+ 3.right:variable.rjust()
+ 4.zfill:variable.zfill()
+
+FINDING METHODS
+
+ 1)variable.find()
+ 2)variable.rfind()
+ 3)variable.lfind()
+ 4)variable.find(value not present in given data type ): gives out put -1 instead of value error
+ 5)variable.index()
+ 6)variable.rindex()
+ 7)variable.lindex()
+ 8)variable.index(value not found in data ): gives output value error
+ 9)variable.count():counts times given value is mentioned in given data
+ 
+REPLACE VALUES
+   VARIABLE.replace(''):Can replace one value at a time
+   variable.maketrans('')Can replace as many value needed to replace; gives mapping
+   variable.translate('')translates mapped data into values
+
+ENCODE AND DECODE
+
+   Converts file into bytes and bytes back or into files
+ 
