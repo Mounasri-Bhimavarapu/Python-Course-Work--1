@@ -1,0 +1,33 @@
+conditional statements
+---------------------------
+1.simpleif
+2.if else
+3.elif ladder
+4.nested if
+-------------------------
+simpleif :syntax
+if cond:
+    #statement
+ --------------------------------- 
+ if condition:
+      #satement true
+ else:
+      #statements false
+ ---------------------------------
+ if cond:
+     #statem1
+elif:
+     #satem2
+elif:             [we can give as many elif conditippons as we required]
+   #statem3
+else:[optional]
+     #statem 
+-----------------------------------------
+if cond:
+    if cond:
+       #statem
+elif:
+    #statement       
+    
+        
+
