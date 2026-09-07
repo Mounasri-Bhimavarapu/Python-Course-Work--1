@@ -1,8 +1,0 @@
-INPUT FORMATING
-
-  input()
-  By default output is a string type data
-.  to convert string into integer-- we use int(input().split())
-.  to convert to list-- list(map(int,input().split()))
-.  to convert to tuple--tuple(map(int,input().split()))
-.  to convert to set---set(map(int,input().split()))
