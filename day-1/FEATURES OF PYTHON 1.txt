@@ -1,0 +1,17 @@
+FEATURES OF PYTHON 
+
+1.Easy to understand-As it is in simple English language 
+2.easy syntax-Relatively less coding compared to other programing languages
+3.corss- platform- can be used across may plat forms like MS word
+4.high level Interpreted language-
+5.large community support-Information regarding python is available in many sources like YouTube ,chatgpt
+6.open source- can be downloaded from python.org with free of cost
+7.Dynamically typed- In python,unlike other programing language there is no need to mention particular data type
+8.Object oriented programing language-
+  a.class-Blue print of an object consist of attributes ands methods
+  b.Object-instance of a class
+  c.Encapslation-Wrapping of data and providing security
+  d.Polymorphism-same action but different response
+  e.Inheritance-accuirig properties(data) from parent to child[old version to new version]
+  f.Abstraction-hides the complexity and displays what is essential 
+ 
