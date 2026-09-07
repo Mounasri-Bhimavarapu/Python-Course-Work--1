@@ -1,0 +1,42 @@
+OOPS --Objrct oriented programming
+it is user dependent program.
+it consist of components :
+
+1.CLASS: Blue print that consist of attributes [public attributes ,private attributes ,protectry attributes] and methods.
+
+2.OBJECT:Instances of a class.
+
+3.ENCAPSULATION: wrapps the data and provieds security to the data.
+
+4.INHERITENCE: Extracting properties from parent class to child class. It is of 5 types:
+   single inheritence 
+   mutiple inheritence
+   multilevel iheritence
+   hybrid inheritence
+   hyrarchial inheritence
+
+5.POLYMORPHISM: One method can behave differently in different situations.
+6.ABSTRACTION: Hiding the complexcity and display what is needed.
+
+WHY OOPS?
+because of its properties  reusability data security,encapsulation,abstraction .
+
+TYPES OF ATRIBUTES:
+
+1.Class attributes: defined within the class.
+2.Instance attributes: defined outside the class.
+
+TYPES OF METHODS:
+
+1. Class Method: 
+class method is used in class.
+it uses cls as first parameter.
+it uses @classmethod as decoration.
+
+2.Instance Method:
+it is used in inastance attributes.
+uses self as first parameter.
+
+3.static method :
+static method does not depend on class or object.
+uses @staticmethod
