@@ -1,0 +1,157 @@
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+A='MOUNASRI'
+B='BHIMAVARAPU'
+A+B
+'MOUNASRIBHIMAVARAPU'
+A*9
+'MOUNASRIMOUNASRIMOUNASRIMOUNASRIMOUNASRIMOUNASRIMOUNASRIMOUNASRIMOUNASRI'
+B*10
+'BHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPUBHIMAVARAPU'
+A[0]
+'M'
+B[7]
+'R'
+A[-3]
+'S'
+B[-4]
+'R'
+names='sita ram lakshman'
+names[:4]
+'sita'
+names[5:8]
+'ram'
+names[9:17]
+'lakshman'
+names[:8]
+'sita ram'
+names[-8:]
+'lakshman'
+names[-10:-13]
+''
+i is names
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    i is names
+NameError: name 'i' is not defined. Did you mean: 'id'?
+sita is names
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    sita is names
+NameError: name 'sita' is not defined
+'ram' is names
+False
+'l' in names
+True
+ram in names
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    ram in names
+NameError: name 'ram' is not defined
+'ran' is names
+False
+names[::-1]
+'namhskal mar atis'
+ord(q)
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    ord(q)
+NameError: name 'q' is not defined
+ord(a)
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    ord(a)
+NameError: name 'a' is not defined. Did you mean: 'A'?
+ord('a')
+97
+ord('q')
+113
+chr(79)
+'O'
+chr(67)
+'C'
+sorted('names')
+['a', 'e', 'm', 'n', 's']
+max('names')
+'s'
+min('names')
+'a'
+n='mounasri'
+n.uper()
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    n.uper()
+AttributeError: 'str' object has no attribute 'uper'. Did you mean: 'upper'?
+a.upper()
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    a.upper()
+NameError: name 'a' is not defined. Did you mean: 'A'?
+n.upper()
+'MOUNASRI'
+n.count()
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    n.count()
+TypeError: count expected at least 1 argument, got 0
+n.count('a')
+1
+n.replace('a','#')
+'moun#sri'
+n.maketrans('aeiou','@#$%&')
+{97: 64, 101: 35, 105: 36, 111: 37, 117: 38}
+n.translate('97: 64, 101: 35, 105: 36, 111: 37, 117: 38')
+'mounasri'
+a='samrajyam'
+a.capitalize()
+'Samrajyam'
+a.title()
+'Samrajyam'
+a.swapcase()
+'SAMRAJYAM'
+>>> s= 'python life'
+>>> s.centre('*')
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    s.centre('*')
+AttributeError: 'str' object has no attribute 'centre'. Did you mean: 'center'?
+>>> s.centre(11,'-')
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    s.centre(11,'-')
+AttributeError: 'str' object has no attribute 'centre'. Did you mean: 'center'?
+>>> s='1234'
+>>> s
+'1234'
+>>> s.zfill(5)
+'01234'
+>>> s.zfill(3)
+'1234'
+>>> s='mounasri'
+>>> s.find('a')
+4
+>>> s.rfind('s')
+5
+>>> s='mom'
+>>> s.find('m')
+0
+>>> s.rfind'm')
+SyntaxError: unmatched ')'
+>>> s.rfind('m')
+2
+>>> s.find('s')
+-1
+>>> s.index('a')
+Traceback (most recent call last):
+  File "<pyshell#60>", line 1, in <module>
+    s.index('a')
+ValueError: substring not found
+>>> s.index('m')
+0
+>>> s.rindex('m')
+2
+>>> s.index('e')
+Traceback (most recent call last):
+  File "<pyshell#63>", line 1, in <module>
+    s.index('e')
+ValueError: substring not found
