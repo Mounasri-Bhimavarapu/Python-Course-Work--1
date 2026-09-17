@@ -57,4 +57,12 @@ REPLACE VALUES
 ENCODE AND DECODE
 
    Converts file into bytes and bytes back or into files
+
+
+
+string - replacing values
+
+1.using mutability- string to list then changes -back to string using join()
+2. using slicing
+3.using replace()
  
