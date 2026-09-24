@@ -118,6 +118,7 @@ res = re.findall(pattern,text)
 
 print(res)'''
 
+#------------------------------------------------------------------------------------------------------
 
 '''import re
 
@@ -129,7 +130,7 @@ res = re.findall(pattern,text)
 
 print(res)'''
 
-
+#----------------------------------------------------------------------------------------------------------------
 
 '''import re
 
@@ -140,6 +141,7 @@ res = re.findall(pattern,text)
 
 print(res)'''
 
+ #------------------------------------------------------------------------------------
 
 '''import re
 
@@ -151,7 +153,7 @@ res = re.findall(pattern,text)
 
 print(res)'''
 
-
+#----------------------------------------------------------------------------------------------------
 
 '''import re
 
@@ -163,7 +165,7 @@ res = re.findall(pattern,text)
 
 print(res)'''
 
-
+#-------------------------------------------------------------------------------------------------------
 
 '''import re
 
@@ -177,6 +179,8 @@ res = re.findall(pattern,text)                    # D GIVES ONLY LETTERS
 print(res) '''                                        # W gives  spaces and special characters
 
 
+#-------------------------------------------------------------------------------------------------
+
 '''import re
 
 name = input("Enter the name:")
@@ -187,7 +191,7 @@ res = re.fullmatch(pattern,name)
 
 print( "Valid Name" if res else "Invalid Name")'''
 
-
+#---------------------------------------------------------------------------------------------
 
 '''import re
 
@@ -199,7 +203,7 @@ res = re.fullmatch(pattern,email)
 
 print( "Valid email" if res else "Invalid email") '''
 
-
+#-------------------------------------------------------------------------------------------
 
 '''import re
 
@@ -210,8 +214,9 @@ res = re.fullmatch(pattern,phone)
 
 print( "Valid phone" if res else "Invalid phone")'''
 
+#----------------------------------------------------------------------------------------
 
-import re
+'''import re
 
 pan = input("Enter the pan:")
 pattern = r'^[A-Z]{6}\d{4}[A-Z]{1}'
@@ -219,7 +224,23 @@ pattern = r'^[A-Z]{6}\d{4}[A-Z]{1}'
                                                   # text should match with exact pattern given.
 res = re.fullmatch(pattern,pan)
 
-print( "Valid pan" if res else "Invalid pan")
+print( "Valid pan" if res else "Invalid pan") '''
+
+
+'''import re
+password =input("Enter the password:")
+pattern = r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%&*?])[A-Za-z\d@$!%&*?]{8,}$'
+res= re.fullmatch(pattern,password)
+
+print("Valid password" if res else "Invalid password")'''
+
+import re
+username =input("enter the user name:")
+pattern = pattern = r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[_])[A-Za-z\d_]+$'
+
+res = re.fullmatch(pattern , username)
+print("valid name" if res else "Invalid name")
+
 
 
 
